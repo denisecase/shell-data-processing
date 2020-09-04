@@ -52,7 +52,13 @@ tr ' ' '\12' < rj.txt | sort | uniq -c | sort -nr
 tr ' ' '\12' < rj.txt | sort | uniq -c | sort -nr > result.txt
 ```
 
-Remaining issues - case insenstive sort?
+Previewing content with Bash (cat, head, tail)
+
+```Bash
+cat result.txt
+head -10 result.txt
+tail -4 result.txt
+```
 
 ## Notes on processing web pages
 
@@ -161,7 +167,15 @@ Processing text with PowerShell (sorting, counting)
 (Get-Content 05.txt)  | Sort-Object -Descending > 06.txt
 ```
 
-## Just for Fun
+Previewing content with PowerShell (gc)
+
+```PowerShell
+Get-Content 06.txt
+gc 06.txt -head 2
+gc 06.txt -tail 2
+```
+
+## Just for Fun- Custom Play
 
 1. Replace each occurance of Romeo with a friend's name. 
 1. Replace each occurance of Juliet with another friend's name. 
@@ -180,6 +194,14 @@ Processing text with PowerShell (sorting, counting)
 ## Practice Scripting Word Count with PowerShell
 
 1. Follow the steps above, using PowerShell instead.
+
+##  Just for Fun- Two sets of reviews from IMDB
+
+See files A.txt and B.txt. 
+
+1. Using only your intellect and script commands, which file holds the positive comments?
+1. Which file holds negative comments?
+1. How did you process the data?  How confident are you? 
 
 ## References
 
