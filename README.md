@@ -205,5 +205,6 @@ See files A.txt and B.txt.
 
 ## References
 
+- [grep man (with options -i (case insensitive), -n (line numbers), -v (invert)](https://linux.die.net/man/1/grep)
 - [StackOverflow Answer](https://stackoverflow.com/questions/35777319/extract-the-source-of-the-webpage-without-tags-using-bash) by [SLePort](https://stackoverflow.com/users/1344961/sleport)
 - [PowerShell Sort-Object](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/sort-object)
